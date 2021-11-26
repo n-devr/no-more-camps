@@ -6,6 +6,7 @@
 .take-action-card {
     margin-top: 30px;
     min-width: 350px;
+    flex-grow: 1;
 }
 
 .btn.btn-social-icon {
@@ -20,4 +21,12 @@
     border-radius: 50px;
     background-color: transparent;
     border-color: white;
+}
+
+.col--full-height {
+    display: flex;
+}
+
+.take-action-card .card-text {
+    flex-grow: 1;
 }
